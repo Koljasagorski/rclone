@@ -17,6 +17,7 @@ require (
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/djherbis/times v1.1.0
 	github.com/dropbox/dropbox-sdk-go-unofficial v5.4.0+incompatible
+	github.com/edsrzf/mmap-go v1.0.0
 	github.com/goftp/file-driver v0.0.0-20180502053751-5d604a0fc0c9 // indirect
 	github.com/goftp/server v0.0.0-20190111142836-88de73f463af
 	github.com/google/go-querystring v1.0.0 // indirect
