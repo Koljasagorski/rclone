@@ -41,7 +41,7 @@ jobs:
     - run:
         name: Upload artifacts
         command: |
-            make circleci_upload
+            [[ $CIRCLE_PULL_REQUEST != "" ]] && make circleci_upload
 
     - store_artifacts:
         path: /tmp/rclone.dist
